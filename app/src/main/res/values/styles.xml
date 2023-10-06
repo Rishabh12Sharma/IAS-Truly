@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your app theme attributes here -->
+    </style>
+
+    <style name="VideoActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your VideoActivity theme attributes here -->
+    </style>
+    <style name="PDFActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+</resources>
