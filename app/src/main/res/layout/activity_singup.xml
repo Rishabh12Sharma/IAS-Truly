@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".SigninginActivity">
+    tools:context=".SignupActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,29 +16,21 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Student- Sign Up"
+            android:text="Student- Login"
             android:textAlignment="center"
             android:padding="16dp"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
 
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:hint="Name"
-            android:padding="16dp"
-            android:paddingHorizontal="16dp"
-            android:textSize="26sp" />
+
         <TextView
             android:layout_width="350dp"
             android:layout_marginTop="25dp"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
-            android:hint="Email AddressName"
+            android:hint="Email Address"
             android:padding="16dp"
             android:paddingHorizontal="16dp"
             android:textSize="26sp" />
@@ -52,30 +44,20 @@
             android:padding="16dp"
             android:paddingHorizontal="16dp"
             android:textSize="26sp" />
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:background="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:hint="Which Class do You Study"
-            android:padding="16dp"
-            android:paddingHorizontal="16dp"
-            android:textSize="26sp" />
         <Button
-            android:id="@+id/btn_register"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:text="Register"
+            android:text="Login"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:background="#0000FF"/>
         <TextView
-            android:id="@+id/login"
+            android:id="@+id/txt_signingin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -85,7 +67,7 @@
             android:textStyle="bold"
             android:layout_marginRight="16dp"
             android:textColor="#0000FF"
-            android:text="Already have an account? Login Here"/>
+            android:text="Don't have an account? Sign Up Here"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -20,6 +20,8 @@ class MainAdapter(val context :Context,var list:ArrayList<Chapters>):RecyclerVie
         var obj =list[position]
 
         holder.txtchapter.text=obj.chapterNumber
+
+
     }
     override fun getItemCount(): Int {
         return list.size

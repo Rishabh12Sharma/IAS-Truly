@@ -6,23 +6,24 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
-class SigninginActivity : AppCompatActivity() {
-    lateinit var btn_signin:Button
-    lateinit var login:TextView
+class SignupActivity : AppCompatActivity() {
+    lateinit var login:Button
+    lateinit var signup:TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signin)
+        setContentView(R.layout.activity_singup)
 
-        btn_signin=findViewById(R.id.btn_register)
-        btn_signin.setOnClickListener {
+        login=findViewById(R.id.btn_login)
+        login.setOnClickListener {
             val intent=Intent(this,ChaptersActivity::class.java)
             startActivity(intent)
         }
-        login=findViewById(R.id.login)
-        login.setOnClickListener {
-            val intent=Intent(this,SignupActivity::class.java)
+        signup=findViewById(R.id.txt_signingin)
+        signup.setOnClickListener {
+            val intent=Intent(this,SigninginActivity::class.java)
             startActivity(intent)
         }
+
 
     }
 }
